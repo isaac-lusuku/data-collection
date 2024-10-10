@@ -17,7 +17,7 @@ def save_data(request):
             return JsonResponse(
                 {'error': 'No data received or incorrect format.'},
                 status=status.HTTP_400_BAD_REQUEST
-            )
+            )w
 
         # Print received data for debugging
         print("Received Data:", data)
